@@ -1,0 +1,13 @@
+[package]
+name = "rr-fluff-rate-limiter"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "3.0.0"
+actix-rt = "1.1.0"
+redis = "0.17.0"
+tokio = { version = "0.2.0", features = ["full"] }
+futures = "0.3.5"
+rand = "0.7.0"
+time = "0.1.43"
